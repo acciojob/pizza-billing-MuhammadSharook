@@ -9,7 +9,9 @@ public class Main {
     dp.addTakeaway();
     System.out.println(dp.getBill());
 
+//    System.out.println(dp.getPrice());
     Pizza p = new Pizza(true);
+//    System.out.println(p.getPrice());
     p.addExtraCheese();
     p.addExtraToppings();
     p.addTakeaway();
